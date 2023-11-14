@@ -1,0 +1,143 @@
+/*CONFIGURAÇÕES GERAIS */
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+/*TELA 1*/
+
+.home {
+  height: 900px;
+  background-image: url('../images/background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+}
+
+.container {
+  width: 80vw;
+  margin: 0 auto;
+  height: 100%;
+}
+
+header>figure>img {
+  height: 144px;
+  width: 254px;
+  margin-top: 30px;
+}
+
+nav {
+  width: 70%;
+}
+
+nav>ul {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul>li>a {
+  color: var(--color-grey-2);
+}
+
+ul>li>a:hover {
+  font-weight: 800;
+}
+
+main {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15PX;
+
+}
+
+h1 {
+  width: 668px;
+  font-family: Iceland;
+  font-size: 92px;
+  font-weight: 400;
+  line-height: 89px;
+  text-align: left;
+  color: var(--color-grey-2);
+}
+
+main>p {
+  width: 506px;
+  font-family: Actor;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: var(--text-color-1);
+}
+
+button {
+  height: 46px;
+  width: 180px;
+  left: 5002px;
+  top: 23px;
+  color: var(--color-grey-2);
+  margin: 10px;
+  font-family: Iceland;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.active {
+  background-color: var(--color-secundary);
+}
+
+.active:hover {
+  border: 2px solid #ffffff;
+}
+
+.inactive {
+  background-color: var(--color-grey-1);
+}
+
+.inactive:hover {
+  border: 2px solid #ffffff;
+}
+
+main>section {
+  margin: 100px;
+}
+
+h3 {
+  height: 65px;
+  width: 336px;
+  font-family: Iceland;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: var(--color-grey-2);
+}
+
+section>ul {
+  width: 800px;
+}
+
+section>ul>li {
+  height: 139px;
+  width: 261px;
+  background-image: url("../images/inside/relationship.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+}
